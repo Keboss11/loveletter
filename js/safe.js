@@ -67,18 +67,23 @@ function openSafe(safe) {
 function getUnlockedSafeCount(state, totalSafes) {
   const startDate = getSafeUnlockStartDate(state);
   const today = parseDateKey(getDateKey());
+  if (today < startDate) {
+    return 0;
+  }
   const elapsedDays = Math.max(0, dateDiffInDays(startDate, today));
   return clamp(elapsedDays + 1, 0, totalSafes);
 }
 
 function getSafeUnlockStartDate(state) {
-  if (state.safeUnlockStartDate) {
-    return parseDateKey(state.safeUnlockStartDate);
+  const today = new Date();
+  const startDate = new Date(today.getFullYear(), today.getMonth(), 22);
+  const startDateKey = getDateKey(startDate);
+
+  if (state.safeUnlockStartDate !== startDateKey) {
+    updateState({ safeUnlockStartDate: startDateKey });
   }
 
-  const todayKey = getDateKey();
-  updateState({ safeUnlockStartDate: todayKey });
-  return parseDateKey(todayKey);
+  return startDate;
 }
 
 function parseDateKey(dateKey) {
