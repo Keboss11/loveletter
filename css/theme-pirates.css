@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&family=Cormorant+Garamond:wght@500;600;700&family=Alegreya:wght@500;700&display=swap');
+
+html:has(body[data-theme="pirates"]) {
+  background:
+    radial-gradient(circle at 18% 14%, rgba(255, 255, 255, 0.38), transparent 22%),
+    radial-gradient(circle at 74% 18%, rgba(255, 255, 255, 0.28), transparent 26%),
+    linear-gradient(180deg, #9bd9ff 0%, #66b6ee 36%, #3f8fcf 52%, #27679c 56%, #1b4f7b 76%, #123a5f 100%);
+}
+
+body[data-theme="pirates"] {
+  color-scheme: light;
+  --bg: #efd8b0;
+  --bg-alt: #d9b483;
+  --surface: #f2dfbf;
+  --surface-strong: #f7e8c9;
+  --text: #2f1c0f;
+  --muted: #6f5136;
+  --primary: #8a3d15;
+  --primary-strong: #63260f;
+  --accent: #ba7a2d;
+  --border: rgba(96, 56, 26, 0.28);
+  --shadow: 0 18px 45px rgba(60, 34, 14, 0.22);
+  --font-display: "Pirata One", "Times New Roman", serif;
+  --font-body: "Cormorant Garamond", Georgia, serif;
+  background:
+    radial-gradient(circle at 18% 14%, rgba(255, 255, 255, 0.38), transparent 22%),
+    radial-gradient(circle at 74% 18%, rgba(255, 255, 255, 0.28), transparent 26%),
+    linear-gradient(180deg, #9bd9ff 0%, #66b6ee 36%, #3f8fcf 52%, #27679c 56%, #1b4f7b 76%, #123a5f 100%);
+}
+
+body[data-theme="pirates"]::before {
+  background:
+    radial-gradient(ellipse at 12% 18%, rgba(255, 255, 255, 0.28), transparent 30%),
+    radial-gradient(ellipse at 84% 12%, rgba(255, 255, 255, 0.22), transparent 28%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0) 0 54%, rgba(255, 255, 255, 0.08) 55%, transparent 56%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0) 0 62%, rgba(13, 54, 86, 0.18) 63%, rgba(15, 57, 90, 0.32) 100%);
+}
+
+body[data-theme="pirates"]::after {
+  opacity: 0.28;
+  mix-blend-mode: soft-light;
+  background:
+    radial-gradient(ellipse at 21% 74%, rgba(18, 24, 32, 0.96) 0 5%, transparent 5.3%),
+    radial-gradient(ellipse at 21% 75%, rgba(18, 24, 32, 0.96) 0 12%, transparent 12.5%),
+    linear-gradient(110deg, transparent 0 48%, rgba(18, 24, 32, 0.96) 48% 50%, transparent 50%),
+    linear-gradient(70deg, transparent 0 48%, rgba(18, 24, 32, 0.96) 48% 50%, transparent 50%),
+    radial-gradient(ellipse at 71% 78%, rgba(18, 24, 32, 0.96) 0 5%, transparent 5.3%),
+    radial-gradient(ellipse at 71% 79%, rgba(18, 24, 32, 0.96) 0 13%, transparent 13.5%),
+    linear-gradient(112deg, transparent 0 49%, rgba(18, 24, 32, 0.96) 49% 51%, transparent 51%),
+    linear-gradient(68deg, transparent 0 49%, rgba(18, 24, 32, 0.96) 49% 51%, transparent 51%),
+    radial-gradient(circle at 24% 66%, rgba(18, 24, 32, 0.96) 0 4px, transparent 5px),
+    radial-gradient(circle at 74% 70%, rgba(18, 24, 32, 0.96) 0 4px, transparent 5px),
+    linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(12, 43, 70, 0.22) 72%, rgba(9, 33, 57, 0.36) 100%),
+    repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.06) 0 2px, transparent 2px 14px);
+}
+
+body[data-theme="pirates"] .site-header {
+  background: linear-gradient(180deg, rgba(247, 232, 202, 0.85), rgba(236, 206, 157, 0.76));
+  border-bottom: 2px solid rgba(107, 67, 35, 0.2);
+  backdrop-filter: blur(1px);
+}
+
+body[data-theme="pirates"] .brand {
+  font-family: var(--font-display);
+  font-size: clamp(1.9rem, 2.4vw, 2.5rem);
+  letter-spacing: 0.06em;
+  color: #6c2f12;
+  text-shadow: 0 1px 0 rgba(255, 240, 214, 0.85), 0 4px 12px rgba(117, 67, 27, 0.24);
+}
+
+body[data-theme="pirates"] .site-nav a {
+  background: rgba(249, 236, 212, 0.76);
+  border: 1px solid rgba(109, 67, 35, 0.24);
+  border-radius: 999px;
+  color: #56270f;
+  font-size: 1.02rem;
+  font-weight: 600;
+}
+
+body[data-theme="pirates"] .site-nav a.active,
+body[data-theme="pirates"] .site-nav a:hover {
+  background: linear-gradient(180deg, rgba(249, 232, 201, 0.98), rgba(230, 197, 146, 0.98));
+  box-shadow: 0 9px 20px rgba(89, 55, 27, 0.22);
+}
+
+body[data-theme="pirates"] .hero-card,
+body[data-theme="pirates"] .tool-card,
+body[data-theme="pirates"] .poster-card,
+body[data-theme="pirates"] .announcement-card,
+body[data-theme="pirates"] .mission-card,
+body[data-theme="pirates"] .reward-card,
+body[data-theme="pirates"] .result-card,
+body[data-theme="pirates"] .quiz-card,
+body[data-theme="pirates"] .safe-card,
+body[data-theme="pirates"] .links-frame,
+body[data-theme="pirates"] .board-frame {
+  background:
+    radial-gradient(circle at 50% 0, rgba(255, 249, 232, 0.45), transparent 34%),
+    linear-gradient(180deg, rgba(248, 232, 201, 0.97), rgba(232, 203, 157, 0.96));
+  border: 2px solid rgba(109, 67, 35, 0.25);
+  border-radius: 18px;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 247, 230, 0.56),
+    0 16px 34px rgba(71, 42, 17, 0.2);
+  color: var(--text);
+  backdrop-filter: none;
+}
+
+body[data-theme="pirates"] .hero-card,
+body[data-theme="pirates"] .tool-card,
+body[data-theme="pirates"] .safe-card,
+body[data-theme="pirates"] .quiz-card,
+body[data-theme="pirates"] .result-card {
+  position: relative;
+}
+
+body[data-theme="pirates"] .hero-card::after,
+body[data-theme="pirates"] .tool-card::after,
+body[data-theme="pirates"] .safe-card::after,
+body[data-theme="pirates"] .quiz-card::after,
+body[data-theme="pirates"] .result-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border-radius: inherit;
+  background:
+    radial-gradient(circle at 90% 15%, rgba(119, 72, 37, 0.08), transparent 26%),
+    repeating-linear-gradient(0deg, rgba(128, 81, 43, 0.05) 0 1px, transparent 1px 22px);
+}
+
+body[data-theme="pirates"] .hero-card h1,
+body[data-theme="pirates"] .section-heading h1,
+body[data-theme="pirates"] .tool-card h2,
+body[data-theme="pirates"] .reward-card h2 {
+  text-transform: none;
+  letter-spacing: 0.03em;
+  line-height: 0.95;
+  color: #5f250d;
+  text-shadow: 0 1px 0 rgba(255, 245, 225, 0.95), 0 8px 20px rgba(104, 59, 24, 0.24);
+}
+
+body[data-theme="pirates"] .hero-card h1 {
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 6.2vw, 4.8rem);
+}
+
+body[data-theme="pirates"] .tool-card h2,
+body[data-theme="pirates"] .reward-card h2,
+body[data-theme="pirates"] .section-heading h1 {
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 4.5vw, 3rem);
+}
+
+body[data-theme="pirates"] p,
+body[data-theme="pirates"] li,
+body[data-theme="pirates"] label,
+body[data-theme="pirates"] button,
+body[data-theme="pirates"] input,
+body[data-theme="pirates"] select {
+  font-size: clamp(1.08rem, 1.7vw, 1.22rem);
+}
+
+body[data-theme="pirates"] .eyebrow {
+  color: #7d4d25;
+  letter-spacing: 0.16em;
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+body[data-theme="pirates"] .safe-card .eyebrow {
+  color: #6f3514;
+}
+
+body[data-theme="pirates"] .safe-card > p:not(.eyebrow) {
+  color: #3a2415;
+  font-family: "Alegreya", Georgia, serif;
+  font-size: clamp(1.02rem, 1.45vw, 1.16rem);
+  line-height: 1.35;
+  font-weight: 700;
+  margin-top: 0.35rem;
+  margin-bottom: 0.95rem;
+}
+
+body[data-theme="pirates"] .muted {
+  color: #6b4c33;
+}
+
+body[data-theme="pirates"] .primary-btn,
+body[data-theme="pirates"] .secondary-btn,
+body[data-theme="pirates"] .ghost-btn {
+  border-radius: 12px;
+  padding: 0.82rem 1.2rem;
+  font-weight: 700;
+}
+
+body[data-theme="pirates"] .primary-btn {
+  background: linear-gradient(180deg, #b96c2d, #8f461e);
+  color: #fff9ef;
+  box-shadow: 0 10px 20px rgba(88, 48, 21, 0.28);
+}
+
+body[data-theme="pirates"] .secondary-btn,
+body[data-theme="pirates"] .ghost-btn {
+  background: rgba(132, 84, 44, 0.12);
+  color: #5b2d14;
+  border: 1px solid rgba(111, 69, 36, 0.24);
+}
+
+body[data-theme="pirates"] .modal-backdrop {
+  background: rgba(61, 35, 14, 0.44);
+}
+
+body[data-theme="pirates"] .modal {
+  background: linear-gradient(180deg, rgba(249, 235, 209, 0.98), rgba(237, 210, 168, 0.98));
+  border: 2px solid rgba(111, 70, 37, 0.24);
+}
+
+body[data-theme="pirates"] .modal-close {
+  color: #6f4a2c;
+}
+
+body[data-theme="pirates"] .board-frame::before {
+  inset: 12px;
+  border-radius: 14px;
+  border: 1px dashed rgba(116, 73, 38, 0.28);
+}
+
+body[data-theme="pirates"] .board-frame::after {
+  background:
+    radial-gradient(circle at 10% 0, rgba(255, 255, 255, 0.22), transparent 26%),
+    repeating-linear-gradient(90deg, rgba(128, 81, 43, 0.04) 0 1px, transparent 1px 20px);
+  opacity: 0.42;
+}
+
+body[data-theme="pirates"] .announcement-card {
+  border-radius: 14px;
+  border: 2px solid rgba(111, 70, 37, 0.3);
+  box-shadow: 0 10px 22px rgba(77, 45, 20, 0.18);
+}
+
+body[data-theme="pirates"] .announcement-card:hover {
+  box-shadow: 0 14px 28px rgba(77, 45, 20, 0.26);
+}
+
+body[data-theme="pirates"] .quick-links a {
+  border-radius: 14px;
+  border: 2px solid rgba(111, 70, 37, 0.26);
+  background: linear-gradient(180deg, rgba(246, 229, 195, 0.97), rgba(229, 196, 146, 0.96));
+}
+
+body[data-theme="pirates"] .quick-links a:hover {
+  transform: translateY(-2px);
+}
+
+body[data-theme="pirates"] .progress-bar {
+  background: rgba(120, 75, 40, 0.15);
+}
+
+body[data-theme="pirates"] .progress-bar span {
+  background: linear-gradient(90deg, #d29c52, #9e602f, #7d411e);
+}
+
+body[data-theme="pirates"] .reward-visual {
+  border: 2px solid rgba(113, 70, 38, 0.26);
+  border-radius: 16px;
+  background:
+    radial-gradient(circle at 10% 0, rgba(255, 247, 224, 0.35), transparent 24%),
+    linear-gradient(135deg, rgba(212, 174, 121, 0.36), rgba(147, 95, 51, 0.22));
+  box-shadow: inset 0 1px 0 rgba(255, 246, 223, 0.32);
+}
+
+body[data-theme="pirates"] .safe-visual {
+  border: 2px solid rgba(113, 70, 38, 0.26);
+  border-radius: 16px;
+  min-height: 260px;
+  background:
+    linear-gradient(180deg, rgba(72, 43, 21, 0.38), rgba(49, 30, 14, 0.5)),
+    url('../assets/cajaFuerte.webp') center center / contain no-repeat;
+  background-color: rgba(109, 73, 39, 0.36);
+  box-shadow: inset 0 1px 0 rgba(255, 246, 223, 0.32);
+  color: #fff8ea;
+  text-shadow: 0 2px 8px rgba(40, 24, 10, 0.55);
+}
+
+body[data-theme="pirates"] .safe-visual.open {
+  background:
+    linear-gradient(180deg, rgba(130, 92, 49, 0.26), rgba(86, 56, 28, 0.34)),
+    url('../assets/cajaFuerte.webp') center center / contain no-repeat;
+  background-color: rgba(126, 86, 45, 0.3);
+}
+
+body[data-theme="pirates"] .filter-field select,
+body[data-theme="pirates"] .quiz-select,
+body[data-theme="pirates"] .safe-input,
+body[data-theme="pirates"] .safe-actions .safe-input,
+body[data-theme="pirates"] .quiz-options button {
+  background: rgba(250, 237, 212, 0.9);
+  border: 1px solid rgba(111, 70, 37, 0.28);
+  color: var(--text);
+  border-radius: 10px;
+}
+
+body[data-theme="pirates"] .theme-switcher {
+  background: rgba(243, 224, 192, 0.94);
+  border-color: rgba(109, 67, 35, 0.3);
+  box-shadow: 0 10px 24px rgba(66, 40, 19, 0.22);
+}
+
+body[data-theme="pirates"] .theme-switcher-title {
+  color: #6f4120;
+  font-size: 0.76rem;
+}
+
+body[data-theme="pirates"] .theme-chip {
+  background: rgba(255, 246, 227, 0.85);
+  color: #5a2d16;
+  border-color: rgba(109, 67, 35, 0.24);
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+body[data-theme="pirates"] .theme-chip.active {
+  background: linear-gradient(180deg, #b3773a, #8a4f25);
+  color: #fff8ee;
+}
+
+@media (max-width: 900px) {
+  body[data-theme="pirates"] .hero-card h1 {
+    font-size: clamp(2rem, 9vw, 3.2rem);
+  }
+
+  body[data-theme="pirates"] .tool-card h2,
+  body[data-theme="pirates"] .reward-card h2,
+  body[data-theme="pirates"] .section-heading h1 {
+    font-size: clamp(1.5rem, 7.2vw, 2.4rem);
+  }
+}

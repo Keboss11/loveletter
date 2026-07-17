@@ -1,0 +1,100 @@
+.compliments-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem;
+}
+
+.tool-card {
+  border-radius: var(--radius-lg);
+  padding: 1.25rem;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  align-items: flex-start;
+}
+
+.alphabet-filter {
+  display: grid;
+  gap: 0.55rem;
+  flex: 1;
+  min-width: min(100%, 430px);
+}
+
+.alphabet-title {
+  margin: 0;
+  font-weight: 600;
+}
+
+.alphabet-board {
+  border-radius: 16px;
+  padding: 0.85rem;
+  border: 1px solid rgba(255, 130, 145, 0.34);
+  background: linear-gradient(180deg, rgba(9, 9, 14, 0.74), rgba(23, 12, 31, 0.9));
+}
+
+.alphabet-letters {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: clamp(0.35rem, 1vw, 0.55rem);
+}
+
+.letter-btn {
+  border: 1px solid rgba(246, 218, 120, 0.46);
+  border-radius: 10px;
+  background: rgba(3, 3, 6, 0.54);
+  color: #fceab2;
+  font-weight: 700;
+  min-height: 34px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.letter-btn:hover {
+  transform: translateY(-2px);
+  background: rgba(47, 17, 17, 0.74);
+  border-color: rgba(255, 210, 118, 0.85);
+}
+
+.letter-btn.active {
+  background: rgba(158, 28, 43, 0.82);
+  border-color: rgba(255, 222, 147, 0.95);
+  box-shadow: 0 0 16px rgba(255, 66, 66, 0.36);
+}
+
+.result-card {
+  border-radius: var(--radius-md);
+  padding: 1.25rem;
+  min-height: 220px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.result-card .big-text {
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  margin: 0;
+}
+
+.result-card {
+  background:
+    radial-gradient(circle at 50% 0, rgba(255, 92, 113, 0.18), transparent 36%),
+    linear-gradient(180deg, rgba(31, 19, 47, 0.95), rgba(18, 12, 30, 0.98));
+  border: 1px solid rgba(255, 130, 145, 0.26);
+}
+
+@media (max-width: 900px) {
+  .alphabet-letters {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .alphabet-letters {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}

@@ -1,0 +1,212 @@
+[
+  {
+    "id": "safe-1",
+    "name": "Caja 01",
+    "clue": "Tiene 5 letras. La tercera y la última son iguales. La cuarta parece una 'b' minúscula de pie. La segunda es una 'n' minúscula invertida. La última letra, aunque aquí esté la última, suele ser la primera cuando pienso en ti.",
+    "password": "guapa",
+    "letter": "Dicen que la belleza está en los ojos de quien mira. Yo creo que simplemente tuve suerte de encontrarte."
+  },
+  {
+    "id": "safe-2",
+    "name": "Caja 02",
+    "clue": "Cinco letras. Capitán, brújula, ron y un gorrión. Con eso debería bastar.",
+    "password": "jack",
+    "letter": "Pero recuerda... Capitán Jack Sparrow."
+  },
+  {
+    "id": "safe-3",
+    "name": "Caja 03",
+    "clue": "No pesa, no ocupa espacio y, aun así, puede arreglar un día entero.",
+    "password": "abrazo",
+    "letter": "Ojalá pudiera darte uno ahora mismo."
+  },
+  {
+    "id": "safe-4",
+    "name": "Caja 04",
+    "clue": "Vive en el Upside Down y probablemente no quieras encontrártelo de noche.",
+    "password": "demogorgon",
+    "letter": "Por suerte esta caja es menos peligrosa."
+  },
+  {
+    "id": "safe-5",
+    "name": "Caja 05",
+    "clue": "Dulce, redonda y perfecta para acompañar un café.",
+    "password": "galleta",
+    "letter": "Aunque algunos prefieren mojarla."
+  },
+  {
+    "id": "safe-6",
+    "name": "Caja 06",
+    "clue": "Tiene 5 letras. Empieza por la misma letra que 'hielo', pero no está frío. Muchos creen que es un lugar. Yo creo que también puede ser una persona.",
+    "password": "hogar",
+    "letter": "Gracias por hacer que cualquier sitio contigo se sienta como casa."
+  },
+  {
+    "id": "safe-7",
+    "name": "Caja 07",
+    "clue": "Hace '¡Acción!' sin decir una sola palabra.",
+    "password": "claqueta",
+    "letter": "Empieza la película."
+  },
+  {
+    "id": "safe-8",
+    "name": "Caja 08",
+    "clue": "Si quieres llamar a cierta persona, quizá esto funcione mejor que decir su nombre.",
+    "password": "palmera",
+    "letter": "No falla casi nunca."
+  },
+  {
+    "id": "safe-9",
+    "name": "Caja 09",
+    "clue": "Empieza con una maleta y suele terminar con un montón de fotos.",
+    "password": "viaje",
+    "letter": "Y con ganas de repetir."
+  },
+  {
+    "id": "safe-10",
+    "name": "Caja 10",
+    "clue": "Sin ellos, Violet Sorrengail tendría un trabajo bastante diferente.",
+    "password": "dragones",
+    "letter": "Menos mal que existen."
+  },
+  {
+    "id": "safe-11",
+    "name": "Caja 11",
+    "clue": "Tiene 7 letras. Empieza igual que 'sol'. Es algo que haces y consigue alegrarme el día sin darte cuenta.",
+    "password": "sonrisa",
+    "letter": "Nunca dejes de sonreír."
+  },
+  {
+    "id": "safe-12",
+    "name": "Caja 12",
+    "clue": "Muchos actores sueñan con tener uno en la estantería.",
+    "password": "oscar",
+    "letter": "Aunque la nominación ya es un premio."
+  },
+  {
+    "id": "safe-13",
+    "name": "Caja 13",
+    "clue": "A algunos les estropea el paseo, pero mejora muchas películas.",
+    "password": "lluvia",
+    "letter": "Y también las siestas."
+  },
+  {
+    "id": "safe-14",
+    "name": "Caja 14",
+    "clue": "Tiene 6 letras. Si es negra, probablemente tenga un capitán muy peculiar.",
+    "password": "perla",
+    "letter": "Todos quieren encontrarla."
+  },
+  {
+    "id": "safe-15",
+    "name": "Caja 15",
+    "clue": "Cuanto menos sabes, más ganas tienes de descubrirlo.",
+    "password": "misterio",
+    "letter": "Y esta caja ya tiene uno menos."
+  },
+  {
+    "id": "safe-16",
+    "name": "Caja 16",
+    "clue": "Tiene 5 letras. Empieza igual que 'oso' y termina igual que 'año'.",
+    "password": "otoño",
+    "letter": "Hay quien dice que es la estación más bonita."
+  },
+  {
+    "id": "safe-17",
+    "name": "Caja 17",
+    "clue": "Sin esto, ir al cine sería mucho más incómodo.",
+    "password": "butaca",
+    "letter": "Y con palomitas, mejor."
+  },
+  {
+    "id": "safe-18",
+    "name": "Caja 18",
+    "clue": "Cuanto más tiempo pasa, más valor suele tener.",
+    "password": "recuerdo",
+    "letter": "Los buenos nunca se olvidan."
+  },
+  {
+    "id": "safe-19",
+    "name": "Caja 19",
+    "clue": "Algunos creen que solo existe en los cuentos. Otros la encuentran viendo una buena película.",
+    "password": "magia",
+    "letter": "No todo necesita explicación."
+  },
+  {
+    "id": "safe-20",
+    "name": "Caja 20",
+    "clue": "Tiene 6 letras. Está detrás de casi todas las películas, pero rara vez delante.",
+    "password": "camara",
+    "letter": "Sonríe, que empieza el rodaje."
+  },
+  {
+    "id": "safe-21",
+    "name": "Caja 21",
+    "clue": "No siempre comparte apellido, pero sí los momentos más importantes.",
+    "password": "familia",
+    "letter": "La que se elige también cuenta."
+  },
+  {
+    "id": "safe-22",
+    "name": "Caja 22",
+    "clue": "Tiene 5 letras. Es dulce, suele llevar azúcar y a veces nata. A Once le encantaría cambiarlo por uno.",
+    "password": "gofre",
+    "letter": "Siempre hay hueco para uno más."
+  },
+  {
+    "id": "safe-23",
+    "name": "Caja 23",
+    "clue": "Unos creen que está escrito. Otros prefieren escribirlo ellos mismos.",
+    "password": "destino",
+    "letter": "Sea como sea, aquí estamos."
+  },
+  {
+    "id": "safe-24",
+    "name": "Caja 24",
+    "clue": "En el cine puede dar más miedo que cualquier monstruo.",
+    "password": "silencio",
+    "letter": "Shhh..."
+  },
+  {
+    "id": "safe-25",
+    "name": "Caja 25",
+    "clue": "Si todo sale según lo previsto, acabarás con una buena historia que contar.",
+    "password": "aventura",
+    "letter": "Las mejores empiezan sin plan."
+  },
+  {
+    "id": "safe-26",
+    "name": "Caja 26",
+    "clue": "Tiene 9 letras. Si la pierdes haciendo un puzle complicado, probablemente acabes enfadándote.",
+    "password": "paciencia",
+    "letter": "Respira. Ya queda menos."
+  },
+  {
+    "id": "safe-27",
+    "name": "Caja 27",
+    "clue": "Tiene 8 letras. Algunas están en el cielo y otras tienen una estrella en el Paseo de la Fama.",
+    "password": "estrella",
+    "letter": "Todas brillan de una forma distinta."
+  },
+  {
+    "id": "safe-28",
+    "name": "Caja 28",
+    "clue": "No suele costar mucho dinero, pero puede significarlo todo.",
+    "password": "detalle",
+    "letter": "Los pequeños gestos son los que más recuerdo."
+  },
+  {
+    "id": "safe-29",
+    "name": "Caja 29",
+    "clue": "Tiene 9 letras. No se compra, no se guarda en una caja y es mucho más fácil encontrarla cuando la compartes.",
+    "password": "felicidad",
+    "letter": "Si has llegado hasta aquí, espero haberte sacado unas cuantas sonrisas."
+  },
+  {
+    "id": "safe-30",
+    "name": "Caja 30",
+    "clue": "No hace falta hablar para que exista. A veces basta con una mirada.",
+    "password": "complicidad",
+    "letter": "Y de eso nos sobra."
+  }
+]

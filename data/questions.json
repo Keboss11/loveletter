@@ -1,0 +1,412 @@
+[
+  {
+    "id": "q1",
+    "question": "¿Cuándo es nuestro aniversario?",
+    "options": ["21/07", "22/07", "22-07", "23/07"],
+    "correctIndex": 1,
+    "explanation": "Correcto: nuestro aniversario es el 22/07."
+  },
+  {
+    "id": "q2",
+    "question": "¿Mateo qué es?",
+    "options": ["Un pollino", "Todas son correctas", "Un pollito"],
+    "correctIndex": 1,
+    "explanation": "Correcto: aquí todas son correctas."
+  },
+  {
+    "id": "q3",
+    "question": "¿Cómo apareció la botella de agua en Praga?",
+    "options": [
+      "Nunca llegó",
+      "De repente hizo 'pof' y apareció",
+      "La trajo un camarero"
+    ],
+    "correctIndex": 1,
+    "explanation": "La botella apareció mágicamente. Nunca lo olvidaremos."
+  },
+  {
+    "id": "q4",
+    "question": "¿Cuál es la mejor forma de llamar a Daniela para que venga?",
+    "options": [
+      "Silbando",
+      "Con una campanita",
+      "Tener una palmera de chocolate"
+    ],
+    "correctIndex": 2,
+    "explanation": "La palmera de chocolate siempre funciona."
+  },
+  {
+    "id": "q5",
+    "question": "¿Montado en qué animal se cayó Mateo en un sueño muy realista?",
+    "options": [
+      "Un cangrejo gigante",
+      "Una cabra",
+      "Un cerdo vietnamita"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sí, una cabra. Los sueños no tienen explicación."
+  },
+  {
+    "id": "q6",
+    "question": "¿Qué se hace en una rotonda sin fuente?",
+    "options": [
+      "Pinchar una rueda",
+      "De frente",
+      "Muy bonita, muchas gracias"
+    ],
+    "correctIndex": 1,
+    "explanation": "Siempre de frente."
+  },
+  {
+    "id": "q7",
+    "question": "¿Cuál ha sido el mejor viaje juntos?",
+    "options": [
+      "Praga",
+      "Este bello viaje que empezamos juntos hace 4 años",
+      "Barcelona"
+    ],
+    "correctIndex": 1,
+    "explanation": "La respuesta correcta siempre es nosotros."
+  },
+  {
+    "id": "q8",
+    "question": "¿Qué serie de las siguientes NO nos hemos visto?",
+    "options": [
+      "Friends",
+      "Sandra, detective de cuentos",
+      "Scooby-Doo"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sandra, detective de cuentos se quedó fuera."
+  },
+  {
+    "id": "q9",
+    "question": "¿Quién dice 'Amigos, tenemos un problema' en Piratas del Caribe?",
+    "options": [
+      "Héctor Barbossa",
+      "Jack Sparrow",
+      "Will Turner"
+    ],
+    "correctIndex": 1,
+    "explanation": "Jack Sparrow nunca falla."
+  },
+  {
+    "id": "q10",
+    "question": "¿Quién dirigió la película 'Tesis'?",
+    "options": [
+      "Alejandro Amenábar",
+      "Álex de la Iglesia",
+      "Juan Antonio Bayona"
+    ],
+    "correctIndex": 0,
+    "explanation": "La dirigió Alejandro Amenábar en 1996."
+  },
+  {
+    "id": "q11",
+    "question": "¿Cómo se llama el café donde se reúnen los protagonistas de Friends?",
+    "options": [
+      "Monk's Café",
+      "Central Perk",
+      "MacLaren's Pub"
+    ],
+    "correctIndex": 1,
+    "explanation": "El mítico Central Perk."
+  },
+  {
+    "id": "q12",
+    "question": "¿Cómo se llama el barco de Jack Sparrow?",
+    "options": [
+      "Queen Anne's Revenge",
+      "Flying Dutchman",
+      "Black Pearl"
+    ],
+    "correctIndex": 2,
+    "explanation": "La Perla Negra."
+  },
+  {
+    "id": "q13",
+    "question": "¿Quién es el capitán más famoso del Caribe?",
+    "options": [
+      "Davy Jones",
+      "Jack Sparrow",
+      "Héctor Barbossa"
+    ],
+    "correctIndex": 1,
+    "explanation": "Capitán Jack Sparrow."
+  },
+  {
+    "id": "q14",
+    "question": "¿Qué actor interpreta a Dustin en Stranger Things?",
+    "options": [
+      "Finn Wolfhard",
+      "Gaten Matarazzo",
+      "Caleb McLaughlin"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dustin está interpretado por Gaten Matarazzo."
+  },
+  {
+    "id": "q15",
+    "question": "¿Qué número lleva tatuado Once en Stranger Things?",
+    "options": [
+      "008",
+      "010",
+      "011"
+    ],
+    "correctIndex": 2,
+    "explanation": "Su tatuaje es el 011."
+  },
+  {
+    "id": "q16",
+    "question": "¿Qué animal está muy presente en Alas de Sangre?",
+    "options": [
+      "Grifos",
+      "Dragones",
+      "Lobos"
+    ],
+    "correctIndex": 1,
+    "explanation": "Los dragones son los protagonistas."
+  },
+  {
+    "id": "q17",
+    "question": "¿Cómo se llama la protagonista de Alas de Sangre?",
+    "options": [
+      "Mira",
+      "Violet Sorrengail",
+      "Rhiannon"
+    ],
+    "correctIndex": 1,
+    "explanation": "La protagonista es Violet Sorrengail."
+  },
+  {
+    "id": "q18",
+    "question": "¿Qué personaje de Friends trabaja como paleontólogo?",
+    "options": [
+      "Ross",
+      "Chandler",
+      "Joey"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ross Geller es paleontólogo."
+  },
+  {
+    "id": "q19",
+    "question": "¿Quién interpreta a Iron Man en el UCM?",
+    "options": [
+      "Chris Evans",
+      "Robert Downey Jr.",
+      "Chris Hemsworth"
+    ],
+    "correctIndex": 1,
+    "explanation": "Robert Downey Jr. dio vida a Tony Stark."
+  },
+  {
+    "id": "q20",
+    "question": "¿Quién dirigió la película 'Origen (Inception)'?",
+    "options": [
+      "Christopher Nolan",
+      "Denis Villeneuve",
+      "David Fincher"
+    ],
+    "correctIndex": 0,
+    "explanation": "Christopher Nolan dirigió Origen."
+  },
+  {
+    "id": "q21",
+    "question": "¿Qué actor interpreta a Neo en Matrix?",
+    "options": [
+      "Keanu Reeves",
+      "Brad Pitt",
+      "Tom Cruise"
+    ],
+    "correctIndex": 0,
+    "explanation": "Keanu Reeves interpreta a Neo."
+  },
+  {
+    "id": "q22",
+    "question": "¿Quién dirigió 'Parásitos'?",
+    "options": [
+      "Park Chan-wook",
+      "Bong Joon-ho",
+      "Kim Jee-woon"
+    ],
+    "correctIndex": 1,
+    "explanation": "Bong Joon-ho ganó el Óscar con Parásitos."
+  },
+  {
+    "id": "q23",
+    "question": "¿Cómo se llama el director de 'Jurassic Park'?",
+    "options": [
+      "Steven Spielberg",
+      "James Cameron",
+      "Ridley Scott"
+    ],
+    "correctIndex": 0,
+    "explanation": "Spielberg la dirigió en 1993."
+  },
+  {
+    "id": "q24",
+    "question": "¿Quién interpreta al Joker en 'El Caballero Oscuro'?",
+    "options": [
+      "Joaquin Phoenix",
+      "Jared Leto",
+      "Heath Ledger"
+    ],
+    "correctIndex": 2,
+    "explanation": "Heath Ledger ganó el Óscar póstumamente."
+  },
+  {
+    "id": "q25",
+    "question": "¿Qué película ganó el Óscar a Mejor Película en 1998?",
+    "options": [
+      "Titanic",
+      "Salvar al soldado Ryan",
+      "Shakespeare in Love"
+    ],
+    "correctIndex": 2,
+    "explanation": "Shakespeare in Love dio la sorpresa."
+  },
+  {
+    "id": "q26",
+    "question": "¿Qué actor interpreta a Maximus en 'Gladiator'?",
+    "options": [
+      "Russell Crowe",
+      "Gerard Butler",
+      "Joaquin Phoenix"
+    ],
+    "correctIndex": 0,
+    "explanation": "Russell Crowe interpreta a Maximus."
+  },
+  {
+    "id": "q27",
+    "question": "¿Quién dirigió 'Pulp Fiction'?",
+    "options": [
+      "Martin Scorsese",
+      "Quentin Tarantino",
+      "Guy Ritchie"
+    ],
+    "correctIndex": 1,
+    "explanation": "Una de las películas más famosas de Tarantino."
+  },
+  {
+    "id": "q28",
+    "question": "¿Qué actor interpreta a Aragorn en El Señor de los Anillos?",
+    "options": [
+      "Sean Bean",
+      "Viggo Mortensen",
+      "Orlando Bloom"
+    ],
+    "correctIndex": 1,
+    "explanation": "Viggo Mortensen interpreta a Aragorn."
+  },
+  {
+    "id": "q29",
+    "question": "¿Quién dirigió 'El Laberinto del Fauno'?",
+    "options": [
+      "Guillermo del Toro",
+      "Alejandro Amenábar",
+      "Juan Antonio Bayona"
+    ],
+    "correctIndex": 0,
+    "explanation": "Guillermo del Toro la dirigió en 2006."
+  },
+  {
+    "id": "q30",
+    "question": "¿Cómo se llama el tiburón de Buscando a Nemo que intenta dejar de comer peces?",
+    "options": [
+      "Bruce",
+      "Anchor",
+      "Chum"
+    ],
+    "correctIndex": 0,
+    "explanation": "Bruce es el líder del grupo."
+  },
+  {
+    "id": "q31",
+    "question": "¿Qué actor interpreta a Jack Dawson en Titanic?",
+    "options": [
+      "Brad Pitt",
+      "Leonardo DiCaprio",
+      "Matt Damon"
+    ],
+    "correctIndex": 1,
+    "explanation": "Leonardo DiCaprio interpreta a Jack."
+  },
+  {
+    "id": "q32",
+    "question": "¿Quién interpreta a Hermione Granger en Harry Potter?",
+    "options": [
+      "Emma Watson",
+      "Emma Stone",
+      "Millie Bobby Brown"
+    ],
+    "correctIndex": 0,
+    "explanation": "Emma Watson dio vida a Hermione."
+  },
+  {
+    "id": "q33",
+    "question": "¿Qué película española ganó el Óscar a Mejor Película Internacional en 2005?",
+    "options": [
+      "Mar adentro",
+      "Tesis",
+      "El orfanato"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mar adentro, dirigida por Alejandro Amenábar."
+  },
+  {
+    "id": "q34",
+    "question": "¿Quién interpreta a Sherlock Holmes en las películas de Guy Ritchie?",
+    "options": [
+      "Benedict Cumberbatch",
+      "Robert Downey Jr.",
+      "Henry Cavill"
+    ],
+    "correctIndex": 1,
+    "explanation": "Robert Downey Jr. interpreta a Sherlock."
+  },
+  {
+    "id": "q35",
+    "question": "¿Qué actor interpreta a Deadpool?",
+    "options": [
+      "Ryan Reynolds",
+      "Ryan Gosling",
+      "Chris Pratt"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ryan Reynolds es Deadpool."
+  },
+  {
+    "id": "q36",
+    "question": "¿Cómo se llama el dinosaurio protagonista de Jurassic World entrenado por Owen?",
+    "options": [
+      "Blue",
+      "Echo",
+      "Delta"
+    ],
+    "correctIndex": 0,
+    "explanation": "Blue es la velocirraptor protagonista."
+  },
+  {
+    "id": "q37",
+    "question": "¿Quién interpreta a Wednesday Addams en la serie de Netflix?",
+    "options": [
+      "Jenna Ortega",
+      "Millie Bobby Brown",
+      "Anya Taylor-Joy"
+    ],
+    "correctIndex": 0,
+    "explanation": "Jenna Ortega interpreta a Miércoles."
+  },
+  {
+    "id": "q38",
+    "question": "¿Qué director creó la trilogía de El Señor de los Anillos?",
+    "options": [
+      "Peter Jackson",
+      "James Cameron",
+      "Ridley Scott"
+    ],
+    "correctIndex": 0,
+    "explanation": "Peter Jackson dirigió la trilogía."
+  }
+]

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aniversario | Caja fuerte</title>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/safe.css">
+  <link rel="stylesheet" href="css/theme-pirates.css" id="themePiratesStylesheet" disabled>
+</head>
+<body data-page="safe">
+  <header class="site-header">
+    <a class="brand" href="index.html">Aniversario</a>
+    <nav class="site-nav" aria-label="Navegación principal">
+      <a href="index.html">Inicio</a>
+      <a href="compliments.html">Halagos</a>
+      <a href="quiz.html">Preguntas</a>
+      <a class="active" href="safe.html">Caja fuerte</a>
+      <a href="progress.html">Progreso</a>
+    </nav>
+  </header>
+
+  <main class="page-shell">
+    <section class="hero-card">
+      <p class="eyebrow">Caja fuerte</p>
+      <h1>Descifra la contraseña y abre la carta</h1>
+      <p>Cada apertura suma al progreso semanal de cajas fuertes.</p>
+    </section>
+
+    <section id="safeList" class="safe-grid" aria-live="polite"></section>
+  </main>
+
+  <div id="modalRoot"></div>
+
+  <script src="js/utils.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/safe.js"></script>
+</body>
+</html>

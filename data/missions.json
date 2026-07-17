@@ -1,0 +1,5 @@
+[
+  { "id": "compliments", "label": "Ver halagos", "base": 3 },
+  { "id": "questions", "label": "Completar preguntas", "base": 6 },
+  { "id": "safes", "label": "Abrir cajas fuertes", "base": 4 }
+]

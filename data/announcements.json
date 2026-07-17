@@ -1,0 +1,74 @@
+[
+  {
+    "id": "msg-01",
+    "title": "Ten buen día",
+    "content": "Ten muy buen día. Espero que hoy te salga todo genial.",
+    "kind": "cariño"
+  },
+  {
+    "id": "msg-02",
+    "title": "Te quiero mucho",
+    "content": "Te quiero muchísimo. No te olvides nunca de eso.",
+    "kind": "cariño"
+  },
+  {
+    "id": "msg-03",
+    "title": "Sigue sonriendo",
+    "content": "Sigue sonriendo, que estás muy guapa cuando lo haces.",
+    "kind": "cariño"
+  },
+  {
+    "id": "msg-04",
+    "title": "Ánimo",
+    "content": "Ánimo con el día. Seguro que te sale mejor de lo que piensas.",
+    "kind": "ánimo"
+  },
+  {
+    "id": "msg-05",
+    "title": "Descansa",
+    "content": "No te olvides de descansar un poquito cuando puedas.",
+    "kind": "ánimo"
+  },
+  {
+    "id": "msg-06",
+    "title": "Tengo ganas",
+    "content": "Tengo muchas ganas de volver a verte.",
+    "kind": "cariño"
+  },
+  {
+    "id": "msg-07",
+    "title": "Eres increíble",
+    "content": "Eres increíble. Nunca dejes de ser como eres.",
+    "kind": "cariño"
+  },
+  {
+    "id": "msg-08",
+    "title": "Tú puedes",
+    "content": "Tú puedes con todo lo que te propongas.",
+    "kind": "ánimo"
+  },
+  {
+    "id": "msg-09",
+    "title": "Qué guapa",
+    "content": "Hoy seguro que estás guapísima, como siempre.",
+    "kind": "cariño"
+  },
+  {
+    "id": "msg-10",
+    "title": "Pienso en ti",
+    "content": "Solo quería decirte que estoy pensando en ti.",
+    "kind": "cariño"
+  },
+  {
+    "id": "msg-11",
+    "title": "Sonríe",
+    "content": "Sonríe un poquito. Te queda genial.",
+    "kind": "cariño"
+  },
+  {
+    "id": "msg-12",
+    "title": "Un besito",
+    "content": "Te mando un besito enorme. ❤️",
+    "kind": "cariño"
+  }
+]

@@ -1,0 +1,212 @@
+.home-scene {
+  min-height: 100vh;
+  background: transparent;
+}
+
+.home-layout {
+  width: 100%;
+  max-width: none;
+  min-height: calc(100vh - 2rem);
+  margin: 0 0 3rem;
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  gap: 0.6rem;
+  align-items: stretch;
+  padding: 2rem 0;
+}
+
+.board-panel,
+.links-panel {
+  min-width: 0;
+}
+
+.links-panel {
+  width: 100%;
+  justify-self: stretch;
+}
+
+.board-frame,
+.links-frame {
+  height: 100%;
+  border-radius: 34px;
+  padding: 1.4rem;
+  box-shadow: var(--shadow);
+}
+
+.board-frame {
+  background:
+    radial-gradient(circle at 0 0, rgba(255, 104, 126, 0.2), transparent 38%),
+    linear-gradient(160deg, rgba(32, 20, 48, 0.96), rgba(13, 9, 24, 0.97));
+  border: 1px solid var(--border);
+  position: relative;
+  overflow: hidden;
+}
+
+.board-frame::before,
+.board-frame::after {
+  content: "";
+  position: absolute;
+  inset: 14px;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 137, 152, 0.16);
+  pointer-events: none;
+}
+
+.board-frame::after {
+  inset: 0;
+  border-radius: inherit;
+  border: 0;
+  background: repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.03) 0 1px, transparent 1px 26px);
+  opacity: 0.4;
+}
+
+.links-frame {
+  background: linear-gradient(180deg, rgba(34, 21, 50, 0.88), rgba(18, 12, 30, 0.95));
+  border: 1px solid var(--border);
+}
+
+.section-heading {
+  margin-bottom: 1rem;
+}
+
+.section-heading h1,
+.links-frame h2 {
+  margin-bottom: 0.35rem;
+}
+
+.announcements-grid {
+  position: relative;
+  min-height: clamp(320px, 46vh, 480px);
+}
+
+.announcement-card {
+  border-radius: 16px;
+  padding: 0.85rem 0.8rem 0.65rem;
+  cursor: pointer;
+  min-height: 118px;
+  width: clamp(170px, 20vw, 240px);
+  position: absolute;
+  top: var(--note-top, 8%);
+  left: var(--note-left, 8%);
+  right: var(--note-right, auto);
+  display: grid;
+  align-items: center;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  background:
+    linear-gradient(180deg, rgba(34, 21, 52, 0.95), rgba(19, 12, 31, 0.98));
+  border: 1px solid rgba(255, 130, 145, 0.28);
+  box-shadow: 0 0 0 1px rgba(255, 126, 141, 0.18), 0 8px 22px rgba(0, 0, 0, 0.38);
+  text-align: left;
+  --note-tilt: 0deg;
+  transform: rotate(var(--note-tilt));
+}
+
+.announcement-card:hover {
+  transform: translateY(-3px) rotate(var(--note-tilt));
+  box-shadow: 0 0 0 1px rgba(255, 126, 141, 0.4), 0 10px 30px rgba(217, 21, 60, 0.35);
+}
+
+.announcement-text {
+  display: grid;
+  gap: 0.25rem;
+  justify-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 0.55rem 0.5rem;
+}
+
+.announcement-text strong {
+  font-size: 0.95rem;
+  line-height: 1.25;
+}
+
+.links-frame {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.quick-links {
+  display: grid;
+  gap: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.quick-links a {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.8rem;
+  border-radius: 18px;
+  background: linear-gradient(180deg, rgba(43, 25, 61, 0.95), rgba(25, 15, 39, 0.96));
+  border: 1px solid rgba(255, 130, 145, 0.24);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.32);
+  min-height: 84px;
+  justify-items: center;
+  text-align: center;
+  transition: transform 0.18s ease, border-color 0.18s ease;
+}
+
+.quick-links a span {
+  display: none;
+}
+
+.quick-links a strong {
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.quick-links a::before {
+  content: "";
+  display: none;
+}
+
+.links-frame h2,
+.links-frame .eyebrow,
+.section-heading h1,
+.section-heading .muted,
+.announcement-card,
+.quick-links a strong {
+  color: inherit;
+  text-shadow: 0 0 10px rgba(255, 73, 93, 0.22);
+}
+
+.quick-links a:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 130, 145, 0.45);
+}
+
+.modal-note-text {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  text-align: center;
+  padding: 0 1.1rem;
+}
+
+@media (max-width: 900px) {
+  .home-layout {
+    grid-template-columns: 1fr;
+    min-height: auto;
+    padding: 1rem 0 1.5rem;
+  }
+
+  .announcements-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.9rem;
+    min-height: auto;
+  }
+
+  .announcement-card {
+    position: static;
+    width: 100%;
+    min-height: 130px;
+    transform: none;
+  }
+
+  .announcement-card:hover {
+    transform: translateY(-3px);
+  }
+}
