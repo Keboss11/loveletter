@@ -15,17 +15,15 @@ function renderQuiz() {
   const answeredIds = state.dailyQuestionState?.answered || [];
 
   container.innerHTML = '';
-  dailyQuestions.forEach((question, index) => {
+  dailyQuestions.forEach((question) => {
     const isAnswered = answeredIds.includes(question.id);
     const card = document.createElement('article');
     card.className = 'quiz-card';
     card.innerHTML = `
-      <p class="eyebrow">Pregunta ${index + 1}</p>
       <h2>${question.question}</h2>
       <div class="quiz-options">
         ${question.options.map((option, optionIndex) => `<button type="button" data-option="${optionIndex}" ${isAnswered ? 'disabled' : ''}>${option}</button>`).join('')}
       </div>
-      <div class="quiz-feedback" id="feedback-${question.id}">${isAnswered ? 'Respondida hoy' : ''}</div>
     `;
 
     card.querySelectorAll('[data-option]').forEach((button) => {
@@ -49,8 +47,5 @@ function answerQuestion(question, selectedIndex) {
   state.questionsAnswered += 1;
   incrementMission('questions', 1);
   writeState(state);
-
-  const feedback = document.getElementById(`feedback-${question.id}`);
-  feedback.textContent = isCorrect ? question.explanation || 'Respuesta correcta' : `Incorrecta. La respuesta era: ${question.options[question.correctIndex]}`;
   renderQuiz();
 }
