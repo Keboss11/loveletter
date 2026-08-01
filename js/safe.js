@@ -22,10 +22,14 @@ function renderSafes() {
       <div class="safe-visual ${isOpened ? 'open' : ''}">${isOpened ? 'Abierta' : isUnlocked ? 'Cerrada' : 'Bloqueada'}</div>
       <p class="eyebrow">${safe.name}</p>
       ${isUnlocked ? `<p>${safe.clue}</p>` : `<p class="safe-locked-message">Se desbloquea el ${unlockDateText}</p>`}
-      ${isUnlocked ? `
+      ${isOpened ? `
         <div class="safe-actions">
-          <input class="safe-input" id="safe-input-${safe.id}" type="password" placeholder="Contraseña" ${isOpened ? 'disabled' : ''}>
-          <button class="primary-btn" type="button" ${isOpened ? 'disabled' : ''} data-open-safe="${safe.id}">Abrir caja</button>
+          <button class="primary-btn" type="button" data-read-safe="${safe.id}">Abrir carta</button>
+        </div>
+      ` : isUnlocked ? `
+        <div class="safe-actions">
+          <input class="safe-input" id="safe-input-${safe.id}" type="password" placeholder="Contraseña">
+          <button class="primary-btn" type="button" data-open-safe="${safe.id}">Abrir caja</button>
         </div>
       ` : ''}
     `;
@@ -33,6 +37,11 @@ function renderSafes() {
     const openButton = card.querySelector('[data-open-safe]');
     if (openButton) {
       openButton.addEventListener('click', () => openSafe(safe));
+    }
+
+    const readButton = card.querySelector('[data-read-safe]');
+    if (readButton) {
+      readButton.addEventListener('click', () => openSafeLetter(safe));
     }
 
     container.appendChild(card);
@@ -43,6 +52,7 @@ function openSafe(safe) {
   const input = document.getElementById(`safe-input-${safe.id}`);
   const state = readState();
   if ((state.openedSafes || []).includes(safe.id)) {
+    openSafeLetter(safe);
     return;
   }
 
@@ -56,12 +66,16 @@ function openSafe(safe) {
   state.safesOpened += 1;
   writeState(state);
   incrementMission('safes', 1);
+  openSafeLetter(safe, 'Carta desbloqueada');
+  renderSafes();
+}
+
+function openSafeLetter(safe, title = 'Carta abierta') {
   openModal({
     eyebrow: safe.name,
-    title: 'Carta desbloqueada',
+    title,
     content: `<p>${safe.letter}</p>`,
   });
-  renderSafes();
 }
 
 function getUnlockedSafeCount(state, totalSafes) {
@@ -70,13 +84,14 @@ function getUnlockedSafeCount(state, totalSafes) {
   if (today < startDate) {
     return 0;
   }
+
   const elapsedDays = Math.max(0, dateDiffInDays(startDate, today));
   return clamp(elapsedDays + 1, 0, totalSafes);
 }
 
 function getSafeUnlockStartDate(state) {
   const today = new Date();
-  const startDate = new Date(today.getFullYear(), today.getMonth(), 22);
+  const startDate = new Date(today.getFullYear(), today.getMonth(), 1);
   const startDateKey = getDateKey(startDate);
 
   if (state.safeUnlockStartDate !== startDateKey) {

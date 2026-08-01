@@ -54,6 +54,11 @@ function createThemeSwitcher() {
 
 async function bootApplication() {
   resetIfNewDay();
+
+  // Initialize weekly mission state on every page so mission progress can be tracked immediately.
+  const missions = await loadJSON('data/missions.json');
+  ensureWeeklyState(missions);
+
   const page = document.body.dataset.page;
   if (!page) {
     return;

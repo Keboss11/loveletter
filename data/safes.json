@@ -4,14 +4,14 @@
     "name": "Caja 01",
     "clue": "Tiene 5 letras. La tercera y la última son iguales. La cuarta parece una 'b' minúscula de pie. La segunda es una 'n' minúscula invertida. La última letra, aunque aquí esté la última, suele ser la primera cuando pienso en ti.",
     "password": "guapa",
-    "letter": "Dicen que la belleza está en los ojos de quien mira. Yo creo que simplemente tuve suerte de encontrarte."
+    "letter": "Dicen que la belleza está en los ojos de quien mira. Yo tengo suerte de poder mirarte con los ojos tu belleza."
   },
   {
     "id": "safe-2",
     "name": "Caja 02",
-    "clue": "Cinco letras. Capitán, brújula, ron y un gorrión. Con eso debería bastar.",
+    "clue": "Cinco letras. Capitán, brújula, ron y una perla negra. Con eso debería bastar.",
     "password": "jack",
-    "letter": "Pero recuerda... Capitán Jack Sparrow."
+    "letter": "Ni con la brújula de Jack podría dejar de perderme en tu mirada."
   },
   {
     "id": "safe-3",
@@ -25,28 +25,28 @@
     "name": "Caja 04",
     "clue": "Vive en el Upside Down y probablemente no quieras encontrártelo de noche.",
     "password": "demogorgon",
-    "letter": "Por suerte esta caja es menos peligrosa."
+    "letter": "No eres 11 pero puedes mover cosas sin tocarlas."
   },
   {
     "id": "safe-5",
     "name": "Caja 05",
-    "clue": "Dulce, redonda y perfecta para acompañar un café.",
-    "password": "galleta",
-    "letter": "Aunque algunos prefieren mojarla."
+    "clue": "Dulce, redondas y las mejores son las del mercadona.",
+    "password": "galletas",
+    "letter": "Hay a quien una galleta le alegra el día, a mi me lo alegras tú."
   },
   {
     "id": "safe-6",
     "name": "Caja 06",
-    "clue": "Tiene 5 letras. Empieza por la misma letra que 'hielo', pero no está frío. Muchos creen que es un lugar. Yo creo que también puede ser una persona.",
-    "password": "hogar",
-    "letter": "Gracias por hacer que cualquier sitio contigo se sienta como casa."
+    "clue": "Tiene 4 letras. Muy importante en juego de tronos, cada familia pertenece a una.",
+    "password": "casa",
+    "letter": "Mi lugar seguro es a tu lado."
   },
   {
     "id": "safe-7",
     "name": "Caja 07",
     "clue": "Hace '¡Acción!' sin decir una sola palabra.",
     "password": "claqueta",
-    "letter": "Empieza la película."
+    "letter": "La vida es como una película cuando estamos juntos."
   },
   {
     "id": "safe-8",
@@ -60,7 +60,7 @@
     "name": "Caja 09",
     "clue": "Empieza con una maleta y suele terminar con un montón de fotos.",
     "password": "viaje",
-    "letter": "Y con ganas de repetir."
+    "letter": "Da igual el destino mientras estemos juntos."
   },
   {
     "id": "safe-10",
