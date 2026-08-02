@@ -49,12 +49,13 @@ function renderInitialMessage() {
 function renderCompliment(text) {
   const result = document.getElementById('complimentResult');
   result.innerHTML = `<p class="big-text">${text}</p>`;
-  incrementComplimentsViewed();
-  incrementMission('compliments', 1);
+  const state = readState();
+  incrementComplimentsViewed(state);
+  incrementMission('compliments', 1, state);
+  writeState(state);
 }
 
-function incrementComplimentsViewed() {
-  const state = readState();
+function incrementComplimentsViewed(state = readState()) {
   state.complimentsViewed += 1;
-  writeState(state);
+  return state;
 }

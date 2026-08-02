@@ -89,7 +89,7 @@ function answerQuestion(question, selectedIndex) {
   delete pendingSelections[question.id];
   state.dailyQuestionState = dailyState;
   state.questionsAnswered += 1;
-  incrementMission('questions', 1);
+  incrementMission('questions', 1, state);
   writeState(state);
   renderQuiz();
 }

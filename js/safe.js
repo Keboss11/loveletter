@@ -64,8 +64,8 @@ function openSafe(safe) {
 
   state.openedSafes = [...(state.openedSafes || []), safe.id];
   state.safesOpened += 1;
+  incrementMission('safes', 1, state);
   writeState(state);
-  incrementMission('safes', 1);
   openSafeLetter(safe, 'Carta desbloqueada');
   renderSafes();
 }

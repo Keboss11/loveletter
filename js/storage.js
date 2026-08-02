@@ -96,8 +96,7 @@ function setMissionProgress(missionId, amount) {
   return state;
 }
 
-function incrementMission(missionId, amount = 1) {
-  const state = readState();
+function incrementMission(missionId, amount = 1, state = readState()) {
   if (!state.weeklyState) {
     return state;
   }
@@ -108,7 +107,6 @@ function incrementMission(missionId, amount = 1) {
   }
 
   mission.progress = clamp(mission.progress + amount, 0, mission.base + mission.bonus);
-  writeState(state);
   return state;
 }
 
